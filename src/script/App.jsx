@@ -2,8 +2,6 @@ import '../css/style.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from './Layout/Layout'
 
-
-
 function App() {
   <BrowserRouter>
     <Routes>
