@@ -3,3 +3,19 @@
 // https://sass-lang.com/
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Abstract
+
+// Variables
+@import "./Abstract/variables";
+
+// Base
+
+// Animations
+@import "./Base/animations";
+
+// Base
+@import "./Base/base";
+
+// Typography
+@import "./Base/typography";
