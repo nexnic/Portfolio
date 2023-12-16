@@ -11907,107 +11907,8 @@ textarea.form-control-lg {
   box-sizing: inherit;
 }
 
-html {
-  font-size: 62.5%;
-}
-
 body {
   background-color: gray;
-}
-
-.heading__main--top {
-  color: #00ff33;
-  font-size: 1.6rem;
-  animation: moveInLeft;
-  animation-duration: 2s;
-}
-.heading__main--name {
-  color: white;
-  font-size: 4rem;
-  letter-spacing: 0.2rem;
-  line-height: 4rem;
-}
-.heading__main--slogan {
-  color: #999;
-  font-size: 3rem;
-  text-transform: uppercase;
-}
-.heading__nav {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 2.4rem;
-  color: white;
-  text-transform: uppercase;
-  overflow: hidden;
-  white-space: nowrap;
-}
-.heading__nav--main {
-  font-size: 2.4rem;
-}
-.heading__nav--sub {
-  font-size: 2rem;
-}
-
-.heading__nav-sub {
-  color: white;
-  font-size: 2.4rem;
-}
-
-.heading__sub--page {
-  color: #00ff33;
-  font-size: 1.6rem;
-}
-.heading__sub--main {
-  color: white;
-}
-
-.pageNumber {
-  color: #00ff33;
-  font-size: 1.2rem;
-}
-.pageNumber-main {
-  font-size: 2rem;
-  color: #00ff33;
-}
-
-.fab {
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  color: white;
-  font-size: 5rem;
-  padding: 1rem;
-}
-.fab:hover {
-  color: #7a7f91;
-}
-
-.fas {
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  color: white;
-  font-size: 4rem;
-  padding: 1rem;
-}
-.fas:hover {
-  color: #7a7f91;
-}
-
-p {
-  color: white;
-  font-size: 1.6rem;
-}
-
-hr {
-  display: inline-block;
-  width: 45rem;
-}
-
-h2, .h2 {
-  color: white;
-  text-transform: uppercase;
 }
 
 #About {
@@ -12016,6 +11917,16 @@ h2, .h2 {
   align-items: center;
   min-height: 90vh;
   background-color: green;
+}
+#About__col-1-2 {
+  background-color: orange;
+  min-width: 100%;
+  min-height: 100%;
+}
+#About__col-2-2 {
+  background-color: rebeccapurple;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 #Experience {
