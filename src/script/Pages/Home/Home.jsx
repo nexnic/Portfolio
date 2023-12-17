@@ -3,6 +3,7 @@
 import { Link } from 'react-router-dom'
 //import HeroImg from '../../../assets/Image/Portfolio01.png'
 
+
 /**
  * @name Home
  * @description This will be the Home page for this site
@@ -42,20 +43,12 @@ function Home () {
             <section id="Experience">
                 <h2>Experience</h2>
             </section>
-            <section id="Project">
-                <h2>Project</h2>
-                <div>
-                    <div className='card text-inherit decoration-none inline-flex flex-col border-1px border-solid rounded-15px duration relative'>
-                        <div className='card-bg-img flex-1 flex flex-col p-25px rounded-15px'>
-                            <div className='m-t-20px row justify-between items-center'>
-                                <h3>Test</h3>
-                                <div className='row'>
-                                    <button>test</button>
-                                </div>
-                            </div>
-                            <div className='bg-[var(--border)] h-1px m-y-10px'></div>
-                        </div>
-                    </div>
+            <section id="Project" className='container row'>
+                <div 
+                    className=''
+                >
+                    <h2>Project</h2>
+                <p>sleek user interfaces that prioritize user experience to responsive designs that adapt to various devices, Dive into the showcase below to witness the fusion of design and code that brings digital dreams to life.</p>
                 </div>
             </section>
         </main>
